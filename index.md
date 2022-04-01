@@ -1,7 +1,8 @@
 # 如何绕过硬件限制强行安装Windows11系统
-
+'''
 Shift+F10 #打开命令行
 regedit #进入注册表
+'''
 HKEY_LOCAL_MACHINE\SYSTEM\Setup #打开目录
 
 新建->项->LabConfig
