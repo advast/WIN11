@@ -2,9 +2,9 @@
 Shift+F10 #打开PowerShell窗口  
 regedit #输入之后进入注册表  
 
-HKEY_LOCAL_MACHINE\SYSTEM\Setup #打开目录  
+HKEY_LOCAL_MACHINE\SYSTEM\Setup #打开Setup目录  
 
-新建->项->LabConfig  
+在Setup目录中 新建-> 项 ->将项重命名为 LabConfig  
 
 在此项中新建 DWORD(32位)值;命名为 BypassTPMCheck;双击修改值为00000001(7个0,1个1)  
 
